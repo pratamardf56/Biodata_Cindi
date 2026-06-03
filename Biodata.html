@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Biodata Cindi Aulia</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icon -->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <style>
+
+        body{
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg,#36d1dc,#5b86e5);
+            min-height: 100vh;
+        }
+
+        .biodata-card{
+            background: white;
+            border-radius: 25px;
+            overflow: hidden;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+        }
+
+        .header{
+            background: linear-gradient(135deg,#0d6efd,#4dabff);
+            text-align: center;
+            padding: 40px 20px;
+            color: white;
+        }
+
+        .foto-container{
+            width: 180px;
+            height: 180px;
+            margin: auto;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 5px solid white;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+
+        .foto-container img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .content{
+            padding: 35px;
+        }
+
+        .section-title{
+            color: #0d6efd;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .identitas-card{
+            border-radius: 20px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            padding: 25px;
+            background: #f8f9fa;
+        }
+
+        .identitas-item{
+            padding: 12px 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .identitas-item:last-child{
+            border-bottom: none;
+        }
+
+        .label{
+            font-weight: bold;
+            color: #0d6efd;
+        }
+
+        .skill-card{
+            border: none;
+            border-radius: 18px;
+            transition: 0.3s;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .skill-card:hover{
+            transform: translateY(-5px);
+        }
+
+        .skill-icon{
+            font-size: 35px;
+        }
+
+        .list-group-item{
+            border: none;
+            padding-left: 0;
+            font-size: 16px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<div class="container py-5">
+
+    <div class="biodata-card mx-auto col-lg-8">
+
+        <!-- Header -->
+        <div class="header">
+
+            <div class="foto-container">
+                <img src="cindi.jpeg" alt="Cindi">
+            </div>
+
+            <h1 class="mt-3 fw-bold">BIODATA CINDI AULIA</h1>
+            <p>✨ Profil Singkat Siswa ✨</p>
+
+        </div>
+
+        <!-- Content -->
+        <div class="content">
+
+            <!-- Identitas -->
+            <h3 class="section-title">
+                <i class="bi bi-person-circle"></i>
+                Identitas Siswa
+            </h3>
+
+            <div class="identitas-card">
+
+                <div class="row identitas-item">
+                    <div class="col-md-4 label">
+                        <i class="bi bi-person-fill"></i> Nama
+                    </div>
+                    <div class="col-md-8">
+                        : Cindi Aulia
+                    </div>
+                </div>
+
+                <div class="row identitas-item">
+                    <div class="col-md-4 label">
+                        <i class="bi bi-book-fill"></i> Kelas
+                    </div>
+                    <div class="col-md-8">
+                        : XI.2
+                    </div>
+                </div>
+
+                <div class="row identitas-item">
+                    <div class="col-md-4 label">
+                        <i class="bi bi-calendar-event-fill"></i> TTL
+                    </div>
+                    <div class="col-md-8">
+                        : Majalengka, 12 Agustus 2008
+                    </div>
+                </div>
+
+                <div class="row identitas-item">
+                    <div class="col-md-4 label">
+                        <i class="bi bi-gender-female"></i> Jenis Kelamin
+                    </div>
+                    <div class="col-md-8">
+                        : Perempuan
+                    </div>
+                </div>
+
+                <div class="row identitas-item">
+                    <div class="col-md-4 label">
+                        <i class="bi bi-geo-alt-fill"></i> Alamat
+                    </div>
+                    <div class="col-md-8">
+                        : Dusun Cieurih, RT 03 / RW 03, Desa Sinargalih
+                    </div>
+                </div>
+
+                <div class="row identitas-item">
+                    <div class="col-md-4 label">
+                        <i class="bi bi-envelope-fill"></i> Email
+                    </div>
+                    <div class="col-md-8">
+                        : cindiaulia584@gmail.com
+                    </div>
+                </div>
+
+                <div class="row identitas-item">
+                    <div class="col-md-4 label">
+                        <i class="bi bi-telephone-fill"></i> No HP
+                    </div>
+                    <div class="col-md-8">
+                        : 082263074743
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Pendidikan -->
+            <h3 class="section-title mt-5">
+                <i class="bi bi-mortarboard-fill"></i>
+                Riwayat Pendidikan
+            </h3>
+
+            <ul class="list-group mb-4">
+                <li class="list-group-item">🏫 SDN Sinargalih</li>
+                <li class="list-group-item">📘 SMPT Manahijul Huda</li>
+                <li class="list-group-item">🎓 MAN 1 Majalengka</li>
+            </ul>
+
+            <!-- Skill -->
+            <h3 class="section-title mt-5">
+                <i class="bi bi-stars"></i>
+                Skill / Hobi
+            </h3>
+
+            <div class="row g-4">
+
+                <div class="col-md-6">
+                    <div class="card skill-card text-center p-4">
+                        <div class="skill-icon">🍳</div>
+                        <h5 class="mt-3">Memasak</h5>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card skill-card text-center p-4">
+                        <div class="skill-icon">💻</div>
+                        <h5 class="mt-3">Microsoft Office</h5>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card skill-card text-center p-4">
+                        <div class="skill-icon">🏐</div>
+                        <h5 class="mt-3">Volly</h5>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card skill-card text-center p-4">
+                        <div class="skill-icon">✍️</div>
+                        <h5 class="mt-3">Menulis</h5>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
